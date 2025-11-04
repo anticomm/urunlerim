@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<title>Elektronik Ürünler</title>
-<link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <title>{{ürün_adı}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+    .price { font-size: 1.5em; color: #d32f2f; }
+    .update, .shipping, .notify { font-size: 0.9em; color: #555; }
+    .deal-button { display: inline-block; margin: 10px 0; padding: 10px 15px; background: #1976d2; color: white; text-decoration: none; border-radius: 5px; }
+    ul { padding-left: 20px; }
+  </style>
 </head>
 <body>
-<div class="navbar">
-<ul>
-<li><a href="/">Anasayfa</a></li>
-<li><a href="index.html">Elektronik</a></li>
-</ul>
-</div>
-<div class="container">
-<h1>📦 Elektronik Ürünler</h1>
-<ul><li><a href="B00C3Y2IC4.html">B00C3Y2Ic4</a></li>
-<li><a href="B079TYKFWT.html">B079Tykfwt</a></li>
-<li><a href="B07XTS8QXK.html">B07Xts8Qxk</a></li>
-<li><a href="B086JZ5LFP.html">B086Jz5Lfp</a></li>
-</ul>
-</div>
+  <h1>OnuAl Fiyat Arşivi</h1>
+  <p>Popüler e-ticaret sitelerini takip eder, satın almak için en iyi zamanı seçmenize yardımcı olur.</p>
+
+  <h2>{{ürün_adı}}</h2>
+  <p class="price">💰 {{fiyat}} TL</p>
+  <p class="update">↻ {{güncelleme_tarihi}}</p>
+  <p class="shipping">📦 {{kargo_bilgisi}}</p>
+  <p class="notify">📲 Bu ürün indirime girdiğinde {{bildirim_kanalı}}’dan bildirim alın!</p>
+  <a href="{{ürün_linki}}" class="deal-button">🔗 Ürüne Git</a>
+
+  <hr>
+
+  <h3>📋 Ürün Bilgisi</h3>
+  <ul>
+    <li>Satıcı: {{satıcı}}</li>
+  </ul>
 </body>
 </html>

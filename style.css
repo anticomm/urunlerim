@@ -136,6 +136,96 @@ body {
   line-height: 1.6;
   color: #333;
   text-align: center;
+<<<<<<< HEAD
+=======
+}
+
+.footer h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+/* Telif yazısı */
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  padding: 15px 0;
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
+}
+
+/* Kategori kutusu */
+.kategori-menu {
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.kategori-baslik {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.yeni-etiket {
+  background-color: white;
+  color: #ff6600;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* Mobil uyum */
+@media (max-width: 480px) {
+  .navbar ul {
+    gap: 10px;
+    padding: 0 5px;
+  }
+
+  .navbar li {
+    flex: 1 1 auto;
+    min-width: 80px;
+<<<<<<< HEAD
+=======
+  }
+
+  .navbar a,
+  .kategori-baslik {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  .kategori-listesi {
+    width: 180px;
+>>>>>>> f897d531b5ac2cdd31cb592d8be793032f86daab
+  }
+
+  .navbar a,
+  .kategori-baslik {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+
+  .kategori-listesi {
+    width: 180px;
+  }
+>>>>>>> 7cae6a549189e8be1adb604a4768d9302734c75f
 }
 
 .footer h2 {
